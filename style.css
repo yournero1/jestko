@@ -1,0 +1,106 @@
+body {
+    font-family: 'Roboto';
+    font-style: normal;
+    /* width: 100%; */
+}
+
+.container {
+    margin: 0 auto;
+}
+
+.logo {
+    padding-left: 32px;
+}
+
+.header_top {
+    background-color: #090808;
+    margin-bottom: 80px;
+}
+
+.header {
+    justify-content: space-between;
+    display: flex;
+}
+
+.h1_header {
+    font-weight: 500;
+    font-size: 72px;
+    line-height: 84px;
+    color: #000000;
+    margin: 0;
+}
+
+.header_midle_left {
+    display: flex;
+    flex-direction: column;
+}
+
+.header_midle_left_text {
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 38px;
+}
+
+.header_midle_right {
+    box-sizing: border-box;
+    border: 1px solid #000000;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-height: 336px;
+    margin-top: 107px;
+    margin-bottom: 304px;
+}
+
+input {
+    border: 1px solid #000;
+    width: 368px;
+    height: 48px;
+}
+
+.input_main {
+    display: flex;
+    flex-direction: column;
+    margin-top: 16px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+button {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    background: #000000;
+    width: 374px;
+    height: 48px;
+    color: #FFFFFF;
+}
+
+.btn {
+    margin-top: 16px;
+}
+
+.clear {
+    margin-bottom: 16px;
+}
+
+.noMessages {
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 38px;
+}
+
+[class^="error"] {
+    color: red;
+}
+
+footer {
+    background-color: #737373;
+    height: 160px;
+}
+
+.messages {
+    max-height: 500px;
+}
